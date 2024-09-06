@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #212529;
+        }
+
+        .button {
+            position: relative;
+            overflow: hidden;
+            height: 3rem;
+            padding: 0 2rem;
+            border-radius: 1.5rem;
+            background: #2294ff;
+            background-size: 400%;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-left: 600px;
+            margin-top: 80px;
+        }
+
+        .button:hover::before {
+            transform: scaleX(1);
+        }
+
+        .button-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: scaleX(0);
+            transform-origin: 0 50%;
+            width: 100%;
+            height: inherit;
+            border-radius: inherit;
+            background:
+             linear-gradient(82.3deg,#0a2c4c 10.8%,#2294ff 94.3%);
+            transition: all 0.475s;
+        }
+        .footer{
+            margin-top: -160px;
+        }
+        h1,
+        h2,
+        pre {
+            color: #c6c8c9;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        p, ul,code,li,.tip,.note,.warning {
+            margin: 15px 0;
+            color: #c6c8c9;
+        }
+        strong{
+            color: #ebebeb;
+        }
+        code {
+            background-color: #5b626b;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        .README {
+            background-color: #2b3035;            padding: 20px;
+            border-radius: 8px;
+            README-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .README h1 {
+            font-size: 32px;
+
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+
+        .tip,
+        .note,
+        .warning {
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        .tip {
+            background-color: #495057;
+            border-left: 4px solid #4caf50;
+        }
+
+        .note {
+            background-color: #495057;
+            border-left: 4px solid #2196f3;
+        }
+
+        .warning {
+            background-color: #495057;
+            border-left: 4px solid #ff9800;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    @media(max-width: 815px) {
+        .resp{
+            margin-bottom: 90px;
+        }
+        .footer{
+            margin-top: -260px;
+        }
+        .button{
+            margin-left: 0%;
+            margin-top: 190px;
+        }
+    }
+        @media(max-width: 650px) {
+            .resp {
+                margin-bottom: 120px;
+            }
+    
+            .footer {
+                margin-top: -340px;
+            }
+    
+            .button {
+                margin-left: 0%;
+                margin-top: 270px;
+            }
+        }
