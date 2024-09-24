@@ -7,7 +7,7 @@ function copyText() {
     textarea.select();
     document.execCommand("copy");
     document.body.removeChild(textarea);
-    document.getElementById("message").innerText = textToCopy;
+    document.getElementById("message").innerText = "Tether address copied";
     document.getElementById("message").style.display = "block";
     setTimeout(() => {document.getElementById("message").style.display = "none";}, 2000);
 }
