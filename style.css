@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #212529;
+        }
+
+        .smalll{
+            display: none;
+        }
+
+        .center-flex{
+        display: flex;
+        align-items: center;
+       }
+
+        .first-flex{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-left: auto;
+            margin-bottom: auto;
+            padding-top: 60px;
+        }
+
+        .second-flex{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+       .qrcode{
+            width: 187px;
+            border: #2294ff solid 1.5px;
+            border-radius: 20px;
+       }
+
+        .button {
+            position: relative;
+            overflow: hidden;
+            height: 3rem;
+            padding: 0 2rem;
+            border-radius: 1.5rem;
+            background: #2294ff;
+            background-size: 400%;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button:hover::before {
+            transform: scaleX(1);
+        }
+
+        .button-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: scaleX(0);
+            transform-origin: 0 50%;
+            width: 100%;
+            height: inherit;
+            border-radius: inherit;
+            background:
+             linear-gradient(82.3deg,#0a2c4c 10.8%,#2294ff 94.3%);
+            transition: all 0.475s;
+        }
+
+        h1,
+        h2,
+        pre {
+            color: #c6c8c9;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        p, ul,code,li,.tip,.note,.warning {
+            margin: 15px 0;
+            color: #c6c8c9;
+        }
+        strong{
+            color: #ebebeb;
+        }
+        code {
+            background-color: #5b626b;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        .README {
+            background-color: #2b3035;            
+            padding: 0 20px 20px 20px;
+            border-radius: 8px;
+            README-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .README h1 {
+            font-size: 32px;
+
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+
+        .tip,
+        .note,
+        .warning {
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        .tip {
+            background-color: #495057;
+            border-left: 4px solid #4caf50;
+        }
+
+        .note {
+            background-color: #495057;
+            border-left: 4px solid #2196f3;
+        }
+
+        .warning {
+            background-color: #495057;
+            border-left: 4px solid #ff9800;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style: none;
+        }
+
+        .social-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .social-2 .icon-content {
+            margin: 0 10px;
+            position: relative;
+        }
+
+        .social-2 .icon-content .tooltip {
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            padding: 6px 10px;
+            border-radius: 5px;
+            opacity: 0;
+            visibility: hidden;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .social-2 .icon-content:hover .tooltip {
+            opacity: 1;
+            visibility: visible;
+            top: -50px;
+        }
+
+        .social-2 .icon-content a {
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            color: #4d4d4d;
+            background-color: #fff;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .social-2 .icon-content a:hover {
+            box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+        }
+
+        .social-2 .icon-content a svg {
+            position: relative;
+            z-index: 1;
+            width: 30px;
+            height: 30px;
+        }
+
+        .social-2 .icon-content a:hover {
+            color: white;
+        }
+
+        .social-2 .icon-content a .filled {
+            position: absolute;
+            top: auto;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 0;
+            background-color: #000;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .social-2 .icon-content a:hover .filled {
+            height: 100%;
+        }
+
+
+        .social-2 .icon-content a[data-social="github"] .filled,
+        .social-2 .icon-content a[data-social="github"]~.tooltip {
+            background-color: #24262a;
+        }
+
+        .foot{
+            font-size: 13px;
+            display: flex;
+            justify-content: center;
+        }
+
+    @media(max-width: 870px) {
+        .center-flex {
+            display: flex;
+            flex-direction: column;            
+        }
+        .first-flex{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-right: auto;
+            margin-bottom: auto;
+            padding-top: 0px;
+
+        }
+        .bigg{
+            display: none;
+        }
+
+
+    }
