@@ -161,18 +161,18 @@
             list-style: none;
         }
 
-        .sjkdhfsjkdf-2 {
+        .social-2 {
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        .sjkdhfsjkdf-2 .icon-content {
+        .social-2 .icon-content {
             margin: 0 10px;
             position: relative;
         }
 
-        .sjkdhfsjkdf-2 .icon-content .tooltip {
+        .social-2 .icon-content .tooltip {
             position: absolute;
             top: -30px;
             left: 50%;
@@ -186,13 +186,13 @@
             transition: all 0.3s ease;
         }
 
-        .sjkdhfsjkdf-2 .icon-content:hover .tooltip {
+        .social-2 .icon-content:hover .tooltip {
             opacity: 1;
             visibility: visible;
             top: -50px;
         }
 
-        .sjkdhfsjkdf-2 .icon-content a {
+        .social-2 .icon-content a {
             position: relative;
             overflow: hidden;
             display: flex;
@@ -206,22 +206,22 @@
             transition: all 0.3s ease-in-out;
         }
 
-        .sjkdhfsjkdf-2 .icon-content a:hover {
+        .social-2 .icon-content a:hover {
             box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
         }
 
-        .sjkdhfsjkdf-2 .icon-content a svg {
+        .social-2 .icon-content a svg {
             position: relative;
             z-index: 1;
             width: 30px;
             height: 30px;
         }
 
-        .sjkdhfsjkdf-2 .icon-content a:hover {
+        .social-2 .icon-content a:hover {
             color: white;
         }
 
-        .sjkdhfsjkdf-2 .icon-content a .filled {
+        .social-2 .icon-content a .filled {
             position: absolute;
             top: auto;
             bottom: 0;
@@ -232,16 +232,21 @@
             transition: all 0.3s ease-in-out;
         }
 
-        .sjkdhfsjkdf-2 .icon-content a:hover .filled {
+        .social-2 .icon-content a:hover .filled {
             height: 100%;
         }
 
 
-        .sjkdhfsjkdf-2 .icon-content a[data-social="github"] .filled,
-        .sjkdhfsjkdf-2 .icon-content a[data-social="github"]~.tooltip {
+        .social-2 .icon-content a[data-social="github"] .filled,
+        .social-2 .icon-content a[data-social="github"]~.tooltip {
             background-color: #24262a;
         }
 
+        .foot{
+            font-size: 13px;
+            display: flex;
+            justify-content: center;
+        }
 
     @media(max-width: 870px) {
         .center-flex {
