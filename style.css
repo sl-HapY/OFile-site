@@ -67,6 +67,7 @@
         .button {
             position: relative;
             overflow: hidden;
+            width: 187px;
             height: 3rem;
             padding: 0 2rem;
             border-radius: 15px;
@@ -156,7 +157,7 @@
         .note,
         .Usage,
         .Usage-cmd {
-            padding: 10px;
+            padding: 10px 20px 10px 20px;
             border-radius: 10px;
             margin: 10px 0;
         }
@@ -173,7 +174,8 @@
 
         .Usage {
             background-color: #495057;
-            border-left: 4px solid #ff9800;
+            border-left: 4px solid #ff9900;
+            padding: px;
         }
 
         .Usage-cmd{
