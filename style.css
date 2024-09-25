@@ -13,6 +13,27 @@
             background-color: #212529;
         }
 
+        .lang{
+            position: absolute;
+            right: 20px;
+            padding: 2px 4px 0px 4px;
+            margin: 10px;
+            font-weight: 800;
+            border-radius: 10px;
+            border: #2294ff solid 1px;
+            background-color: #1e2124;
+            width: auto;
+        }
+
+        .lang a:hover{
+            color: #c6c8c9;
+            text-decoration: none;
+        }
+
+        .lang:hover{
+            border: #c6c8c9 solid 1px;
+        }
+
         .smalll{
             display: none;
         }
@@ -40,7 +61,7 @@
        .qrcode{
             width: 187px;
             border: #2294ff solid 1.5px;
-            border-radius: 20px;
+            border-radius: 15px;
        }
 
         .button {
@@ -48,7 +69,7 @@
             overflow: hidden;
             height: 3rem;
             padding: 0 2rem;
-            border-radius: 1.5rem;
+            border-radius: 15px;
             background: #2294ff;
             background-size: 400%;
             color: #fff;
@@ -95,17 +116,22 @@
             margin-top: 20px;
         }
 
-        p, ul,code,li,.tip,.note,.warning {
+        p, ul,code,li,.tip,.note,.Usage,.Usage-cmd {
             margin: 15px 0;
             color: #c6c8c9;
         }
         strong{
             color: #ebebeb;
         }
+
         code {
-            background-color: #5b626b;
-            padding: 2px 4px;
+            background-color: #575d64;
+            padding: 0.1px 3px;
             border-radius: 4px;
+        }
+
+        .of-command{
+            background-color: #363b41;
         }
 
         .README {
@@ -128,9 +154,10 @@
 
         .tip,
         .note,
-        .warning {
+        .Usage,
+        .Usage-cmd {
             padding: 10px;
-            border-radius: 5px;
+            border-radius: 10px;
             margin: 10px 0;
         }
 
@@ -144,13 +171,19 @@
             border-left: 4px solid #2196f3;
         }
 
-        .warning {
+        .Usage {
             background-color: #495057;
             border-left: 4px solid #ff9800;
         }
 
+        .Usage-cmd{
+            background-color: #1e2124;
+            padding: 1px 1px 1px 1px 1px;
+            font-size: 14px;
+        }
+        
         a {
-            color: #007bff;
+            color: #2294ff;
             text-decoration: none;
         }
 

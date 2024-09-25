@@ -11,14 +11,14 @@
 <body>
 
     <div class="README">
+        <div class="lang"><a href="ru.html">RU</a> </div>
         <div class="footer">
             <div class="center-flex">
                 <div class="second-flex">
                     <h1 style="color: #2294ff;">O.F</h1>
                     <h2 style="margin-top: -30px;">File Organizer</h2>
-                    <p>Do you have a problem organizing your files? WITH O.F, NO MORE! 😃</p>
-                    <p>Installation is so easy, even a Kid can do it! You can see it from <a
-                            href="https://github.com/psdkiajhn/OF-Linux-Terminal-File-Organizer/blob/main/README.md#installtion">here</a>.
+                    <p>Do you have a problem organizing your files ? WITH O.F, NO MORE 😃</p>
+                    <p>Installation is very easy, you can see full steps with tips <a href="https://github.com/psdkiajhn/OF-Terminal-File/blob/main/README.md#of---file-organizer">here</a> .
                     </p>
                     <h2 class="bigg">Features:</h2>
                 </div>
@@ -44,22 +44,30 @@
             </div>
 
             <div class="tip">
-                <strong>Tip:</strong> Use <code>sudo</code> when using <code>-a</code> or <code>-r</code>. If you see a
+                <strong>Tip:</strong><pre></pre> Use <code>sudo</code> when using <code>-a</code> or <code>-r</code>. If you see a
                 sudo
                 error without using any arguments, it means <code>file_types.json</code> in <code>/usr/OF/</code> was
                 deleted, and you need to use <code>sudo</code> to recreate it.
             </div>
 
-            <div class="warning">
-                <strong>Warnings:</strong>
+            <div class="Usage">
+                <strong>Usage:</strong>
                 <ul>
-                    <li>"Please use sudo" means the command needs to change something in the <code>/usr/</code> folder
-                        and
-                        requires sudo.</li>
-                    <li>You can't use <code>verbose</code> and <code>quiet</code> together.</li>
-                    <li>The <code>/usr/OF/file_types.json</code> file has been deleted! OF must recreate it.</li>
-                    <li>"Needed file does not exist" means the installation files are missing or corrupted. Please
-                        reinstall.</li>
+                    <li>after install, <code>OF</code> command will add to your terminal </li>
+                    <li>you can use it with 10 argument or use it single:</li>
+                    <div class="Usage-cmd">
+                        <li><code class="of-command">of -n</code> OF will not organize file with no Sorting Folder</li>
+                        <li><code class="of-command">of -h</code> show help page</li>
+                        <li><code class="of-command">of -d</code> Oraganizing another directory instead of current directory</li>
+                        <li><code class="of-command">of -v</code> OF will say everything</li>
+                        <li><code class="of-command">of -q</code> OF will don't say anything</li>
+                        <li><code class="of-command">of -f</code> See all supported extension and their types</li>
+                        <li><code class="of-command">of -s</code> Search in supported formats</li>
+                        <li><code class="of-command">of -a</code> Add a new type for extension</li>
+                        <li><code class="of-command">of -r</code> reset all the custome types and extentions</li>
+                        <li><code class="of-command">of -e</code> OF will organize files by extension instead of their types!</li>
+
+                    </div>
                 </ul>
             </div>
         </div>
