@@ -66,6 +66,10 @@
             border-radius: 15px;
        }
 
+       .qrcode:hover{
+            border: #2294ff solid 4.5px;
+       }
+
         .button {
             position: relative;
             overflow: hidden;
