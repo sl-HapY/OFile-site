@@ -73,7 +73,7 @@
         .button {
             position: relative;
             overflow: hidden;
-            width: 187px;
+            min-width: 187px;
             height: 3rem;
             padding: 0 2rem;
             border-radius: 40px;
