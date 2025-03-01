@@ -22,7 +22,7 @@
             margin: 10px;
             font-weight: 800;
             border-radius: 10px;
-            border: #2294ff solid 1px;
+            border: #965de9 solid 1px;
             background-color: #1e2124;
             width: auto;
         }
@@ -62,12 +62,12 @@
 
        .qrcode{
             width: 187px;
-            border: #2294ff solid 1.5px;
+            border: #965de9 solid 1.5px;
             border-radius: 15px;
        }
 
        .qrcode:hover{
-            border: #2294ff solid 4.5px;
+            border: #965de9 solid 4.5px;
        }
 
         .button {
@@ -76,8 +76,8 @@
             width: 187px;
             height: 3rem;
             padding: 0 2rem;
-            border-radius: 15px;
-            background: #2294ff;
+            border-radius: 40px;
+            background: #965de9;
             background-size: 400%;
             color: #fff;
             border: none;
@@ -103,10 +103,12 @@
             width: 100%;
             height: inherit;
             border-radius: inherit;
-            background:
-             linear-gradient(82.3deg,#0a2c4c 10.8%,#2294ff 94.3%);
+            background: linear-gradient(82.3deg,
+                    #965de9 10.8%,
+                    #6358ee 94.3%);
             transition: all 0.475s;
         }
+
 
         h1,
         h2,
@@ -175,7 +177,7 @@
 
         .note {
             background-color: #495057;
-            border-left: 4px solid #2196f3;
+            border-left: 4px solid #965de9;
         }
 
         .Usage {
@@ -191,7 +193,7 @@
         }
         
         a {
-            color: #2294ff;
+            color: #965de9;
             text-decoration: none;
         }
 
